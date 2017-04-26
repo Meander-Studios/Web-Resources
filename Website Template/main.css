@@ -1,0 +1,61 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto","Helvetica Neue","Arial",sans-serif;
+  font-weight: 300;
+}
+body {
+  background: linear-gradient(to bottom right, rgb(241, 196, 15), rgb(231, 76, 60));
+}
+h1 {
+  font-weight: 100;
+}
+p {
+  font-weight: 300;
+}
+a {
+  font-weight: 300;
+}
+header nav ul a {
+  display: inline-block;
+  color: white;
+  padding-top: 2vw;
+  border-top: 5px solid transparent;
+  text-decoration: none;
+  font-size: 150%;
+  margin: 0px 1.25vw;
+  transition-duration: 0.5s;
+}
+header nav ul a:hover {
+  border-top: 5px solid white;
+}
+nav {
+  background: linear-gradient(rgba(52, 73, 94,0.8),rgba(52, 73, 94,0.8));
+  background-color: rgba(52, 73, 94,0.8);
+  padding: 0vw 2.5vw 2.5vw 2.5vw;
+  text-align: center;
+  box-shadow: 0px 5px 15px black;
+}
+.main-section {
+  width: 80%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-top: 2.5%;
+  padding: 2.5%;
+  background-image: url(background.jpeg);
+  background-size: 100vw auto;
+  box-shadow: 0px 10px 15px black;
+  min-height: 100vh;
+  color: black;
+}
+.main-section h1 {
+  text-align: center;
+  font-size: 250%;
+}
+.main-section p {
+  font-size: 120%;
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  margin-top: 1.25%;
+}
